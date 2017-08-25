@@ -1,0 +1,19 @@
+spring:
+    application:
+    	name: hello-config
+    cloud:
+	config:
+		name: hello-config
+#server:
+#    port: 8092
+    
+hello:
+    message: 234
+
+---
+spring:
+    profiles: 
+	active: cloud
+
+hello:
+    message: 123

@@ -4,7 +4,7 @@ hello:
 ---
 spring:
     profiles: 
-	active: cloud
+           active: cloud
 
 hello:
     message: 123xxx

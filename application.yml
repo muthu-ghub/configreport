@@ -1,0 +1,10 @@
+hello:
+    message: 234xxx
+
+---
+spring:
+    profiles: 
+	active: cloud
+
+hello:
+    message: 123xxx
